@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    .container{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background-color: rgb(126, 124, 123);
+    }
+    .container .cup{
+        position: relative;
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        background: linear-gradient(to right,#f9f9f9, #d9d9d9);
+    }
+    .toparea{
+        height: 40%;
+        width: 100%;
+        position: absolute;
+        top: -55px;
+        border-radius: 50%;
+        background: linear-gradient(to right,#f9f9f9, #d9d9d9);  
+    }
+    .innercurve{
+    
+        height: 70%;
+        width: 90%;
+        position: absolute;
+        top: 10px;
+        left: 11px;
+        border-radius: 50%;
+        background: linear-gradient(to right,#d9d9d9, #f9f9f9);
+        overflow: hidden;
+    }
+    
+    .tea{
+        height: 70%;
+        width: 100%;
+        position: absolute;
+        top: 20px;  
+        border-radius: 50%;
+        background-color: rgb(131, 105, 105);
+    }
+    .handle{
+        position: absolute;
+        height: 180px;
+        width: 160px;
+        border-radius: 50%;
+        border: 25px solid  #d9d9d9;
+        top: 61px;
+        left: 166px;
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid  transparent;
+        transform: rotate(40deg);
+    }
+    .plate{
+        position: absolute;
+        bottom: 120px;
+        width: 500px;
+        height: 250px;
+        background: linear-gradient(to right,#d9d9d9, #f9f9f9);
+        border-radius: 50%;
+    }
+    .smoke{
+        position: relative;
+        height: 70%;
+        width: 100%; 
+        background-color: #302d2d transparent;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+        transition-delay: 0.3s;
+        transform: translateY(10px);
+        transition-duration: 1s;
+    }
